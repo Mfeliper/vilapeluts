@@ -1,0 +1,8 @@
+<svg id="botón_filtros" data-name="botón filtros" xmlns="http://www.w3.org/2000/svg" width="129" height="42" viewBox="0 0 129 42">
+  <text id="_" data-name="" transform="translate(10 30)" fill="#388ed9" font-size="27" font-family="FontAwesome"><tspan x="0" y="0"></tspan></text>
+  <text id="aplica_filtres" data-name="aplica filtres" transform="translate(45 25)" font-size="15" font-family="CaviarDreams, Caviar Dreams"><tspan x="0" y="0">aplica filtres</tspan></text>
+  <g id="Elipse_13" data-name="Elipse 13" fill="none" stroke="#1a171a" stroke-width="1">
+    <circle cx="21" cy="21" r="21" stroke="none"/>
+    <circle cx="21" cy="21" r="20.5" fill="none"/>
+  </g>
+</svg>

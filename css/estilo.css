@@ -150,10 +150,12 @@ text-decoration: underline;
 .etiqueta {
 font-family: var(--font-family-titulars);
 font-style: normal;
-font-weight: normal;
+font-weight:normal;
 font-size: var(--font-size-h2);
 line-height: var(--line-spacing-extra-gran);
 color: var(--magenta);
+background-color: var(--blanco);
+padding: 2px;
 }
 
 .titular{
@@ -477,7 +479,10 @@ main{
     position:absolute;
     top:0.5em;
     left:0.5em;
-    width:100%;
+    width:auto;
+    height:auto;
+    
+    
 }
 .animals_home-article-img, .animals-article-img, .refugi-article-img {
   top:0;
@@ -847,10 +852,16 @@ label {
 .botonera-contenidor-text{
     position:absolute;
     background-color: var(--negro);
-    width:50%;
-    height:25%;
-    left:25%;
-    bottom:25%;
+    width:60%;
+    height:40%;
+    left:20%;
+    bottom:30%;
+}
+.botonera-contenidor-text h3{
+    font-size: var(--font-size-normal);
+    margin:10%;
+    padding:0;
+
 }
 .botonera-contenidor-text a{
     text-decoration: none;
@@ -1206,6 +1217,10 @@ header{
 .productes_relacionats-columna{    
     width:33.33%;    
     }
+    
+.botonera-contenidor-text h3{
+    font-size: var(--font-size-h3);
+    }
 }
 
 /*----Desktop----*/
@@ -1215,7 +1230,7 @@ header{
     display: block;
 }
 article{  
-    width:calc(33% - 1px);
+    width:calc(33.33% - 4px);
     margin:2px;
 }  
 .botonera-contenidor{
@@ -1248,7 +1263,7 @@ article{
 }
     
 .hero img{
-    width:75%;
+    width:60%;
     background-size:800px auto; /*el hero tiene este máximo de imagen, para que no se deforme en exceso en pantallas grandes*/
     }    
 }

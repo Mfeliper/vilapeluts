@@ -149,11 +149,11 @@ text-decoration: underline;
 }
 .etiqueta {
 font-family: var(--font-family-titulars);
-font-style: normal;
-font-weight:normal;
-font-size: var(--font-size-h2);
+font-style:normal;
+font-weight:200;
+font-size: var(--font-size-h1);
 line-height: var(--line-spacing-extra-gran);
-color: var(--magenta);
+color: var(--negro);
 background-color: var(--blanco);
 padding: 2px;
 }

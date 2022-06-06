@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Els nostres animals</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet"><link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">   <link rel="stylesheet" href="normalize.css" />
+   <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+<div class="page">
+
+<header>
+   <a href="index.html" aria-label="Pàgina inicial"><div class="logo" ></div></a>  
+       
+    <nav class="menu_destacats">    
+        <ul>
+        <li><a  href="producto.html" class="img3"  aria-label="Boutique solidària"></a></li>
+        <li><a  href="refugio.html" class="img2" aria-label="El refugi" ></a></li>
+        <li><a  href="peludos.html" class="img1" aria-label="Els nostres animals"></a></li>
+        </ul>
+    </nav>
+
+    <nav class="menu_principal tablet-show ">
+        <ul>
+           <li><a href="refugio.html">EL REFUGI</a></li>   
+             <li><a href="peludos.html">ELS NOSTRES ANIMALS</a> </li>
+             <li><a href="#">AJUDA'NS</a> </li>
+             <li><a href="#">ACTUALITAT</a></li>
+             <li><a href="producto.html">BOUTIQUE SOLIDÀRIA</a></li>
+            <li><a href="#">CONTACTE</a></li>             
+        </ul>
+      </nav>
+</header>
+
+<div class="clearfix"></div>
+
+    
+    <section class="hero">
+        <img src="img/banners/banner_peludos.png" alt="imatge banner peluts">      
+        <div class="hero-contenidor">
+            <div class="hero-contenidor-text">
+                   <div class="hero-contenidor-text-text">
+                    <h1>ADOPTA</h1>
+                    <p class="subtitulo">Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p>
+                </div>
+                
+            </div>
+             <div class="hero-contenidor-controls">
+                   <div class="items">
+                        <a href="#" class="active" aria-label="Imatge 1"></a>
+                        <a href="#" aria-label="Imatge 2"></a>
+                        <a href="#" aria-label="Imatge 3"></a>
+                        <a href="#" aria-label="Imatge 4"></a>
+                </div>
+            </div>
+         </div>     
+    </section>
+
+<main>
+
+   
+   <hr class="linea">
+   <hr class="linea">
+   
+    <section class="formulari_filtres">
+          <div class="formulari_filtres-text">
+            <h2>CERCA AL TEU NOU MILLOR AMIC</h2>
+            <p class="subtitulo">Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p>
+        </div>
+           <div class="formulari_filtres-contenidor"> 
+            <div class="column no-border">
+                <div class="row">
+                     <div class="col-25">
+                        <input type="checkbox" id="gossos" name="gossos"  class="form_text">
+                    </div>
+                    <div class="col-75 form_labels">
+                        <label for="gossos">GOSSOS</label>
+                    </div>                                       
+                </div>   
+                <div class="row">
+                     <div class="col-25">
+                        <input type="checkbox" id="gats" name="gats"  class="form_text">
+                    </div>
+                    <div class="col-75 form_labels">
+                        <label for="gats">GATS</label>
+                    </div>                                       
+                </div>   
+            </div>
+            <div class="column">
+                <div class="row">
+                     <div class="col-25">
+                        <input type="checkbox" id="femella" name="femella"  class="form_text">
+                    </div>
+                    <div class="col-75 form_labels">
+                        <label for="femella">FEMELLA</label>
+                    </div>                                       
+                </div>   
+                <div class="row">
+                     <div class="col-25">
+                        <input type="checkbox" id="mascle" name="mascle"  class="form_text">
+                    </div>
+                    <div class="col-75 form_labels">
+                        <label for="mascle">MASCLE</label>
+                    </div>                                       
+                </div>   
+            </div>
+            <div class="column">
+                <div class="row">
+                     <div class="col-25">
+                        <input type="checkbox" id="peluts_adopcio" name="peluts_adopcio"  class="form_text">
+                    </div>
+                    <div class="col-75 form_labels">
+                        <label for="peluts_adopcio">ADOPCIÓ</label>
+                    </div>                                       
+                </div>   
+                <div class="row">
+                     <div class="col-25">
+                        <input type="checkbox" id="peluts_acollida" name="peluts_acollida"  class="form_text">
+                    </div>
+                    <div class="col-75 form_labels">
+                        <label for="peluts_acollida">ACOLLIDA</label>
+                    </div>                                       
+                </div>
+            </div>
+          </div>     
+          <a href="#" aria-label="Aplicar els filtres"><div class="formulari_filtres-boto">
+              </div></a>
+          <div class="formulari_filtres-ordre"> 
+              <div class="col-25 form_labels">
+                    <label for="ordre">Ordenar per:</label>
+              </div> 
+              <div class="col-75">
+                  <select id="ordre" name="ordre">
+                      <option value="asc">A-Z</option>
+                      <option value="desc">Z-A</option>        
+                  </select>
+              </div>
+        </div>  
+    </section>
+   
+   <div class="clearfix"></div>
+   
+   <section class="animals">
+        <div class="animals-text">
+            <h2> ELS NOSTRES ANIMALS</h2>
+            <h2 class="subtitulo">Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</h2>
+        </div>
+        
+        <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal1.jpeg" alt="Animal1">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Jessy</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+         <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal2.jpeg" alt="Animal2">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Fred</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+         <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal3.jpeg" alt="Animal3">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Neula</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+         <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal4.jpeg" alt="Animal4">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Sam</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+         <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal5.jpeg" alt="Animal5">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Gina</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+         <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal6.jpeg" alt="Animal6">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Duna</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+         <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal8.jpeg" alt="Animal8">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Tete</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+           <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal9.jpeg" alt="Animal9">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Blacky</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+           <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal10.jpeg" alt="Animal10">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Lucky</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+           <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal11.jpeg" alt="Animal11">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Malcom</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+           <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal12.jpeg" alt="Animal12">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Romeo</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+           <article class="col-2">                
+            <div class="animals-article">
+                <img class="animals-article-img" src="img/animals/animal7.jpeg" alt="Animal7">
+                <div class="animals-article-etiqueta"><h3 class="etiqueta">Vampiro</h3></div>
+                <div class="animals-article-icono"><a href="#" aria-label="Obre la fitxa de l'animal"></a></div>
+             </div>
+             <div class="animals-article-contenedor-text"><p>Etiam sit amet risus eget dui vestibulum aliquet id eu sem.Etiam sit amet risus eget dui vestibulum aliquet id eu sem.</p></div>
+        </article>
+    
+     
+    </section>
+   
+   
+   <div class="clearfix"></div>
+       
+    <section class="paginacio">
+        
+        <div class="paginacio-botonera"><a href="#" aria-label="Canvia de pàgina"></a></div>
+        
+    </section>
+   
+   <div class="clearfix"></div>
+   
+   
+
+</main>
+
+<footer>
+    <div class="xarxes">
+        <h2>TAMBÉ ENS TROBARÀS A</h2>
+        <div class="xarxes-contenidor">
+            <a href="#"><img src="img/bt/xarxes_fa.svg" alt="Facebook"></a>
+            <a href="#"><img src="img/bt/xarxes_tw.svg" alt="Twiter"></a>
+            <a href="#"><img src="img/bt/xarxes_yo.svg" alt="Youtube"></a>
+            <a href="#"><img src="img/bt/xarxes_in.svg" alt="Instagram"></a>
+        </div>
+    </div>
+   
+   <hr class="linea">
+   <hr class="linea">
+
+  <div class="clearfix"></div>
+   
+    <div class="footer-contenidor">
+        <ul>
+            <li><a href="#">Avís legal</a></li>
+            <li><a href="#">Política de cookies</a></li>
+            <li><a href="#">Política de privacitat</a></li>
+        </ul>
+    </div>
+   
+</footer> 
+    </div> 
+</body>
+</html>
+

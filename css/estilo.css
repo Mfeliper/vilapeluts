@@ -173,7 +173,9 @@ font-style: normal;
 font-weight: normal;
 font-size: var(--font-size-h2);
 line-height: var(--line-spacing-extra-gran);
-color: var(--magenta);
+color: var(--negro);
+text-decoration: underline var(--magenta);
+text-underline-offset: 8px;
 }
 
 /*========================================================
@@ -939,7 +941,7 @@ footer{
     padding:1.2em;
     width:128px;
     height:42px;
-    background-image: url(/img/bt/bt_filtres.svg);
+    background-image: url("../img/bt/bt_filtres.svg");
     background-repeat: no-repeat;
     background-position: center;
     border:0;
